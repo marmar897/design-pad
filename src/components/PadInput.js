@@ -14,14 +14,12 @@ class PadInput extends React.Component {
     dragStart = (event) => {
         const target = event.target.id
         event.dataTransfer.setData("keypad_id", target);
-        console.log(target)
         
     } 
 
 
 
     dragOver = (event) => {
-        console.log("Dragover");
         event.preventDefault();
     }
 

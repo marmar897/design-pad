@@ -19,3 +19,10 @@ button
     top: 10px;
 
 }
+
+.window {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}

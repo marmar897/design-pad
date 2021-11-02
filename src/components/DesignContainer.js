@@ -31,7 +31,8 @@ class DesignContainer extends React.Component{
     
     render(){
         return(
-            <div> 
+ 
+            <div className = "window"> 
                 <h1 > Design Pad </h1>
                 <p> drag and drop the numbers to change colors on the Design Pad</p>
                 <button onClick = {this.onClick} 
@@ -40,6 +41,7 @@ class DesignContainer extends React.Component{
                 <PadInput/>
                 
             </div>
+
         )
     }
 
