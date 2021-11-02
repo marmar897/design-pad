@@ -1,13 +1,12 @@
 .container {
     
     position: absolute;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     height: 50%;
-    margin: auto;
-    width: 50%;
-    right: 350px;
-    bottom: 350px; 
+    width: 35%;
+    right: 40em;
+    bottom: 21em; 
 }
 .container > div {
     
@@ -16,5 +15,6 @@
     width: 22em;
     height: 22em;
     border-radius: 25px;
+    
     
 }
